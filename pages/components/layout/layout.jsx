@@ -5,6 +5,8 @@ import classes from './layout.module.css'
 import { useRouter } from 'next/router'
 
 const layout = ({ children }) => {
+	// const { asPath, locale, defaultLocale } = useRouter();
+	// if (locale === defaultLocale) return asPath;
 	let router = useRouter()
 
 	return (
